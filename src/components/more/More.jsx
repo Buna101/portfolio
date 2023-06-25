@@ -49,73 +49,38 @@ function More(props) {
           <img className='more__image' src={me} />
         </div>
       </div>
-      <div>
-        <div id='techstack' className='more__techstack'>
-          <div className='more__techstack__title'>Technologies</div>
-          <ul className='more__techstack__container'>
-            <ul className='more__techstack__list'>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={js}></img>
-                JavaScript
-              </li>
+      <div id='techstack' className='more__techstack'>
+        <div className='more__techstack__title'>Technologies</div>
+        <ul className='more__techstack__container'>
+          <ul className='more__techstack__list'>
+            <li className='more__techstack__item'>
+              <img className='more__techstack__image' src={js}></img>
+              JavaScript
+            </li>
 
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={node}></img>
-                Node.js
-              </li>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={express}></img>
-                Express
-              </li>
-            </ul>
-            <ul className='more__techstack__list'>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={react}></img>
-                React / React Native
-              </li>
-              <li className='more__techstack__item'>
-                <img
-                  className='more__techstack__image'
-                  style={{ marginRight: "0.5rem" }}
-                  src={mongo}></img>
-                MongoDB
-              </li>
-            </ul>
+            <li className='more__techstack__item'>
+              <img className='more__techstack__image' src={node}></img>
+              Node.js
+            </li>
+            <li className='more__techstack__item'>
+              <img className='more__techstack__image' src={express}></img>
+              Express
+            </li>
           </ul>
-        </div>
-        <div id='skills' className='more__techstack'>
-          <div className='more__techstack__title'>Technologies</div>
-          <ul className='more__techstack__container'>
-            <ul className='more__techstack__list'>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={js}></img>
-                JavaScript
-              </li>
-
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={node}></img>
-                Node.js
-              </li>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={express}></img>
-                Express
-              </li>
-            </ul>
-            <ul className='more__techstack__list'>
-              <li className='more__techstack__item'>
-                <img className='more__techstack__image' src={react}></img>
-                React / React Native
-              </li>
-              <li className='more__techstack__item'>
-                <img
-                  className='more__techstack__image'
-                  style={{ marginRight: "0.5rem" }}
-                  src={mongo}></img>
-                MongoDB
-              </li>
-            </ul>
+          <ul className='more__techstack__list'>
+            <li className='more__techstack__item'>
+              <img className='more__techstack__image' src={react}></img>
+              React / React Native
+            </li>
+            <li className='more__techstack__item'>
+              <img
+                className='more__techstack__image'
+                style={{ marginRight: "0.5rem" }}
+                src={mongo}></img>
+              MongoDB
+            </li>
           </ul>
-        </div>
+        </ul>
       </div>
     </div>
   );
