@@ -1,0 +1,47 @@
+.scroll__arrow {
+  height: 1em;
+}
+.scroll__text {
+  font-weight: 600;
+  font-size: 1rem;
+  width: 15rem;
+  position: absolute;
+  color: var(--clr-slate400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.scroll__container {
+  display: none;
+  justify-content: center;
+  background-color: red;
+}
+
+/* very small screens */
+@media (min-width: 475px) and (orientation: landscape) {
+  .scroll__container {
+    display: flex;
+  }
+}
+
+/* small screens */
+@media (min-width: 640px) and (orientation: landscape) {
+}
+
+/* medium screens */
+@media (min-width: 768px) and (orientation: landscape) {
+}
+
+/* large screens */
+@media (min-width: 1024px) and (orientation: landscape) {
+}
+
+/* extra large screens */
+@media (min-width: 1280px) and (orientation: landscape) {
+}
+
+/* 2xl screens */
+@media (min-width: 1536px) and (orientation: landscape) {
+}
