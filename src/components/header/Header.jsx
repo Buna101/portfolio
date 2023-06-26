@@ -17,14 +17,20 @@ function Header() {
               Work
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className='header__link' href='#contact'>
               Contact
             </a>
-          </li>
+          </li> */}
           <li className='header__line'></li>
           <li className='header__btn'>
-            <a className='btn'>Resume</a>
+            <a
+              href='https://www.linkedin.com/in/milesoncken/'
+              target='_blank'
+              rel='noreferrer'
+              className='btn'>
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

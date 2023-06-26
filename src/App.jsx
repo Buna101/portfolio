@@ -60,9 +60,7 @@ function App() {
         <div className='work'>
           <Work />
         </div>
-        <div className='contact'>
-          <Contact />
-        </div>
+        <div className='contact'>{/* <Contact /> */}</div>
       </div>
 
       {/* <Scroll /> */}

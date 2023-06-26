@@ -34,7 +34,9 @@ function Profile() {
         </li>
       </ul>
       <div className='profile__contact contact-scale'>
-        <div className='btn'>Contact me</div>
+        <a style={{ color: "white" }} href='mailto:milesoncken@gmail.com'>
+          <div className='btn'>Contact me</div>
+        </a>
       </div>
     </div>
   );
