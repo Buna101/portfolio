@@ -33,7 +33,7 @@ function More(props) {
             <div className='more__paragraph'>
               <p className='more__paragraph__intro'>
                 Hello there, I'm Miles!
-                <br></br>A full stack developer from St. Louis MO.
+                <br></br>A Web developer from St. Louis MO.
                 <br></br>
               </p>
               <p

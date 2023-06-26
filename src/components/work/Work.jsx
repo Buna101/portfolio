@@ -21,7 +21,14 @@ function Work() {
               <img src={react}></img>
             </div>
             <div style={{ display: "flex" }}>
-              <button className='button'>Live</button>
+              <a
+                href='https://www.lfgpoker.app'
+                target='_blank'
+                className=''
+                rel='noreferrer'>
+                <button className='button'>Live</button>
+              </a>
+
               <button style={{ opacity: 0 }} className='button'>
                 Github
               </button>

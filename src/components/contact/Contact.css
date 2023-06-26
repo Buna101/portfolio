@@ -1,7 +1,7 @@
 .contact__container {
   margin-top: 5rem;
   display: flex;
-  /* justify-content: center; */
+  align-self: center;
   flex-direction: column;
 }
 
@@ -65,4 +65,50 @@
 
 .contact__card__textarea:focus {
   outline: none;
+}
+
+/* DESKTOP STYLES */
+
+/* very small screens */
+/* this doesnt exit we automatically put them to a mobile view this isnt wide enough */
+@media (min-width: 475px) and (orientation: landscape) {
+  .contact__container {
+    width: 40rem;
+    border: 1px solid red;
+    margin-top: 11rem;
+  }
+  .contact__title {
+    font-size: var(--size-4xl);
+  }
+}
+
+/* small screens */
+@media (min-width: 640px) and (orientation: landscape) {
+}
+
+/* medium screens */
+@media (min-width: 768px) and (orientation: landscape) {
+  .contact__container {
+  }
+  .contact_title {
+    font-size: var(--size-5xl);
+  }
+}
+
+/* large screens */
+@media (min-width: 1024px) and (orientation: landscape) {
+  .contact__container {
+    width: 55rem;
+  }
+  .contact__title {
+    font-size: var(--size-6xl);
+  }
+}
+
+/* extra large screens */
+@media (min-width: 1280px) and (orientation: landscape) {
+}
+
+/* 2xl screens */
+@media (min-width: 1536px) and (orientation: landscape) {
 }
