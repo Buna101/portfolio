@@ -13,6 +13,7 @@ import Contact from "./components/contact/Contact";
 import { gsap } from "gsap";
 import React, { useEffect, useRef, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [techAnimation, setTechAnimation] = useState(false);
@@ -61,6 +62,9 @@ function App() {
           <Work />
         </div>
         <div className='contact'>{/* <Contact /> */}</div>
+        <div className='footer'>
+          <Footer />
+        </div>
       </div>
 
       {/* <Scroll /> */}

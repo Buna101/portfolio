@@ -120,7 +120,8 @@
 /* small screens */
 @media (min-width: 640px) and (orientation: landscape) {
   .profile__container {
-    margin-top: 0rem;
+    margin-top: -1rem;
+    margin-right: 1.5rem;
   }
 
   .profile__image {
@@ -134,20 +135,24 @@
 /* medium screens */
 @media (min-width: 768px) and (orientation: landscape) {
   .profile__image {
-    width: 8rem;
+    width: 9rem;
   }
   .profile__name {
     font-size: 1.5rem;
   }
   .profile__image {
-    margin-top: 1rem;
+  }
+  .profile__container {
+    margin-top: -1rem;
+
+    margin-right: 2.5rem;
   }
 }
 
 /* large screens */
 @media (min-width: 1024px) and (orientation: landscape) {
   .profile__image {
-    width: 8rem;
+    width: 12rem;
   }
   .profile__name {
     font-size: 1.75rem;
@@ -155,26 +160,29 @@
   .profile__image {
     margin-top: 0rem;
   }
+  .profile__container {
+    margin-top: -2.5rem;
+  }
 }
 
 /* extra large screens */
 @media (min-width: 1280px) and (orientation: landscape) {
   .profile__image {
-    width: 11rem;
+    width: 15rem;
   }
   .profile__image {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 
 /* 2xl screens */
 @media (min-width: 1536px) and (orientation: landscape) {
   .profile__image {
-    width: 12rem;
+    width: 18rem;
   }
 
-  .profile__image {
-    margin-top: 4rem;
+  .profile__container {
+    margin-top: 0rem;
   }
 }
 
