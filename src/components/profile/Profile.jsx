@@ -3,7 +3,7 @@ import "./Profile.css";
 import "../../utils.css";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
-import me from "../../assets/pfp.png";
+import me from "../../assets/pfpsmall.png";
 function Profile() {
   return (
     <div className='profile__container'>
