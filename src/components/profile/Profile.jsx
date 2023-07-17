@@ -12,7 +12,7 @@ function Profile() {
       <ul className='profile__list'>
         <li>
           <a
-            href='https://www.github.com/buna101/'
+            href='https://www.github.com/milesoncken/'
             target='_blank'
             className='profile__btn'
             rel='noreferrer'>
